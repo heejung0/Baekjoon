@@ -1,16 +1,18 @@
 # 문제
 > 삼각수 T~n~(n ≥ 1)는 [그림]에서와 같이 기하학적으로 일정한 모양의 규칙을 갖는 점들의 모음으로 표현될 수 있다.
-![image](https://user-images.githubusercontent.com/108779533/214670081-4d97b3a4-e047-4363-a643-68c539e2b770.png)
+
+> ![image](https://user-images.githubusercontent.com/108779533/214670081-4d97b3a4-e047-4363-a643-68c539e2b770.png)
+
 > 자연수 n에 대해 n ≥ 1의 삼각수 Tn는 명백한 공식이 있다.
 
 > T~n~ = 1 + 2 + 3 + ... + n = n(n+1)/2
 
 > 1796년, 가우스는 모든 자연수가 최대 3개의 삼각수의 합으로 표현될 수 있다고 증명하였다. 예를 들어,
 
-> - 4 = T~1~ + T~2~
-> - 5 = T~1~ + T~1~ + T~2~
-> - 6 = T~2~ + T~2~ or 6 = T~3~
-> - 10 = T~1~ + T~2~ + T~3~ or 10 = T~4~
+> - 4 = T<sub>1</sub> + T<sub>2</sub>
+> - 5 = T<sub>1</sub> + T<sub>1</sub> + T<sub>2</sub>
+> - 6 = T<sub>2</sub> + T<sub>2</sub> or 6 = T<sub>3</sub>
+> - 10 = T<sub>1</sub> + T<sub>2</sub> + T<sub>3</sub> or 10 = T<sub>4</sub>
 
 > 이 결과는 증명을 기념하기 위해 그의 다이어리에 “Eureka! num = Δ + Δ + Δ” 라고 적은것에서 유레카 이론으로 알려졌다.
 
