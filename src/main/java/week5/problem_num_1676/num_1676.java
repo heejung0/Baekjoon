@@ -1,0 +1,19 @@
+package week5.problem_num_1676;
+
+import java.util.Scanner;
+
+public class num_1676 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int count = 0;
+
+        // 5의 인수의 개수 세기 https://st-lab.tistory.com/165
+        while (num >= 5) {
+            count += num / 5;
+            num /= 5;
+        }
+
+        System.out.println(count);
+    }
+}
